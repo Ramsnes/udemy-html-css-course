@@ -10,21 +10,19 @@ body {
   font-family: sans-serif;
 
   border-top: 10px solid #1098ad;
-  position: relative;
 }
 
 .container {
   width: 800px;
-  /* margin-left: auto;
-  margin-right: auto; */
   margin: 0 auto;
+  position: relative;
 }
 
 .main-header {
   background-color: #f7f7f7;
   /* padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px; */
+    padding-left: 40px;
+    padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
   /* height: 80px; */
@@ -49,7 +47,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   /* padding-top: 50px;
-  padding-bottom: 50px; */
+    padding-bottom: 50px; */
   padding: 50px 0;
   width: 500px;
 }
@@ -107,12 +105,12 @@ li:last-child {
 }
 
 /* footer p {
-  font-size: 16px;
-} */
+    font-size: 16px;
+  } */
 
 /* article header p {
-  font-style: italic;
-} */
+    font-style: italic;
+  } */
 
 #author {
   font-style: italic;
@@ -129,8 +127,8 @@ li:last-child {
 }
 
 /* ul {
-  list-style: none;
-} */
+    list-style: none;
+  } */
 
 .related {
   list-style: none;
@@ -141,8 +139,8 @@ body {
 }
 
 /* .first-li {
-  font-weight: bold;
-} */
+    font-weight: bold;
+  } */
 
 li:first-child {
   font-weight: bold;
@@ -191,12 +189,13 @@ a:active {
 
 nav a:link {
   /* background-color: orangered;
-  margin: 20px;
-  padding: 20px;
-
-  display: block; */
+    margin: 20px;
+    padding: 20px;
+  
+    display: block; */
 
   margin-right: 30px;
+  margin-bottom: 10px;
   margin-top: 10px;
   display: inline-block;
 }
@@ -212,14 +211,14 @@ button {
 
   position: absolute;
   /* top: 50px;
-  left: 50px; */
+    left: 50px; */
   bottom: 50px;
-  right: 50px;
+  right: 170px;
 }
 
 h1::first-letter {
+  margin-right: 10px;
   font-style: normal;
-  margin-right: 5px;
 }
 
 h3 + p::first-line {
@@ -231,48 +230,36 @@ h2 {
   position: relative;
 }
 
-h2::before {
-  content: "TOP";
-  background-color: #ffe70e;
-  color: #444;
-  font-size: 16px;
-  font-weight: bold;
-  display: inline-block;
+h2::after {
+  content: "Top";
   padding: 5px 10px;
   position: absolute;
-  top: -10px;
-  right: -25px;
+  font-size: 18px;
+  background-color: yellow;
+  top: 0;
+  right: -1px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 /* Resolving conflicts */
 /* #copyright {
-  color: red;
-}
-
-.copyright {
-  color: blue;
-}
-
-.text {
-  color: yellow;
-}
-
-footer p {
-  color: green !important;
-} */
+    color: red;
+  }
+  
+  .copyright {
+    color: blue;
+  }
+  
+  .text {
+    color: yellow;
+  }
+  
+  footer p {
+    color: green !important;
+  } */
 
 /* nav a:link,
-nav p {
-  font-size: 18px;
-} */
-/*  */
-/*  */
-/*  */
-/*  */
-/* FLOATS */
-
-.author {
-}
-
-.post-img {
-}
+  nav p {
+    font-size: 18px;
+  } */
